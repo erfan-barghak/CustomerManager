@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="نام مشتری" />
+
+            <EditText
+                android:id="@+id/modelEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="مدل دستگاه" />
+
+            <EditText
+                android:id="@+id/serialEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="سریال دستگاه" />
+
+            <Switch
+                android:id="@+id/batterySwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وضعیت باطری"
+                android:textAlignment="textEnd" />
+
+            <Switch
+                android:id="@+id/simSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وضعیت سیم کارت"
+                android:textAlignment="textEnd" />
+
+            <Switch
+                android:id="@+id/slotSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وضعیت خشاب"
+                android:textAlignment="textEnd" />
+
+            <Switch
+                android:id="@+id/doorSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وضعیت درب"
+                android:textAlignment="textEnd" />
+
+            <Switch
+                android:id="@+id/memorySwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وضعیت مموری"
+                android:textAlignment="textEnd" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="رمز عبور" />
+
+            <EditText
+                android:id="@+id/patternEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="الگو" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ذخیره" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="377dp"
+                android:layout_height="900px"
+                app:srcCompat="@drawable/stock_vector_set_of_round_numbers_icon_vector_for_education_and_ui_ux_design_1404114482" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

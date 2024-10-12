@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yes_no_array">
+        <item>بله</item>
+        <item>خیر</item>
+    </string-array>
+</resources>
